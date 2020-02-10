@@ -1,7 +1,6 @@
 from tests.utils import dump_output
 
 
-
 def load_data(filename):
     result = []
     with open(filename, 'r') as csv_in:
